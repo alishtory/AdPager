@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toggleBtn="http://schemas.android.com/apk/res/com.wang.ad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.wang.ad.MyToggleButton
+        android:id="@+id/btn_my_toggle_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        toggleBtn:test_id="123"
+        toggleBtn:test_msg="@string/app_name"
+        />
+
+</RelativeLayout>
